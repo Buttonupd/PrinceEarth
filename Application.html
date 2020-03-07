@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="icon" href="images/icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <header id="header" style="text-align: center; font-size: 35px;padding: 20px;">
+      <h1>COMPANY APPLICATION FORM</h1>
+    </header>
+    <section>
+        <article style="float: left;width: 50% ;height: fit-content;">
+            <div class="container-fluid" id="info">
+                <div class="details">
+                    <h2>Fill in the form below</h2>
+                </div>
+                <div class="message">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="enter">Enter the company's details</label><br>
+                            <label for="enter">Company name</label><br>  
+                            <input type="text" id="name" class="form-control mb-3" placeholder="Name" required><br>
+                            <label for="enter">Address e.g. 40,Nairobi</label><br>              
+                            <input type="text" id="address" class="form-control mb-3" placeholder="address" required><br>
+                            <label for="enter">Company' contact</label><br>
+                            <input type="number" id="contact" class="form-control mb-3" placeholder="contact" required><br>
+                            <label for="enter">Email address</label><br>
+                            <input type="text" id="email" class="form-control mb-3" placeholder="email-address" required><br>
+                        </div>
+                    </form>
+                </div>
+            </div>    
+        </article>
+        <aside style="float: right;">
+            <div class="container-fluid" id="info">
+                <div class="details">
+                    <h3>Proceed by inputting your company' needs</h3>
+                </div>
+                <div class="Information">
+                            <label for="enter"></label><br>
+                            <label for="enter">Type of waste</label><br>
+                            <input type="text" id="waste" class="form-control mb-3" placeholder="Type of waste to be disposed" required><br>
+                            <label for="enter">Choose type of industry :</label>
+                <select>
+                    <option value="primary">Primary Industry</option>
+                    <option value="secondary">Secondary industry</option>
+                </select><br><br>
+                <button id="submit" ><a href="Main.html" style="text-decoration: none;">submit</a></button>
+            </div>
+                
+                
+        </aside>
+    </section>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

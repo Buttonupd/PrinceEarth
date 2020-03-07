@@ -1,0 +1,44 @@
+body{
+    background-image: url(../images/cofe.jpeg);
+    align-content: center;
+    align-self: auto;
+    text-align: center;
+    align-items: center;
+    -moz-box-align: center;
+    position: relative;
+    
+}
+.card-items{
+    text-align: center;
+    align-items: stretch;
+}
+form{
+    border: 3px;
+    
+}
+input[type=text], input[type=password]{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+button{
+    background-color:brown;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.imgcontainer{
+    text-align: center;
+    margin: 24px 0 12px 0; 
+    
+}
